@@ -3,6 +3,9 @@ id = "vulkanmod"
 version = "0.6.8+26.3"
 priority = 100
 
+[compatibility]
+horizon_revision = "0bcd2f15678532560589773f674fb6290b075005"
+
 [[module]]
 id = "runtime"
 file = "crates/horizon-client/src/game.rs"
